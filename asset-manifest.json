@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/purity-carpet/static/js/main.74d94bdf.js",
+    "main.js": "/purity-carpet/static/js/main.da8c60b0.js",
     "index.html": "/purity-carpet/index.html",
-    "main.74d94bdf.js.map": "/purity-carpet/static/js/main.74d94bdf.js.map"
+    "main.da8c60b0.js.map": "/purity-carpet/static/js/main.da8c60b0.js.map"
   },
   "entrypoints": [
-    "static/js/main.74d94bdf.js"
+    "static/js/main.da8c60b0.js"
   ]
 }
