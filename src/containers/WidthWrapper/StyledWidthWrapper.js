@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledWidthWraper = styled.div`
-   padding: 10px;
+export const StyledWidthWrapper = styled.div`
    width: min(100%, 1024px);
    height: 100%;
 `

@@ -1,14 +1,16 @@
-import { WidthWraper } from "../WidthWraper/WidthWraper"
+import { WidthWrapper } from "../WidthWrapper/WidthWrapper"
 import { StyledOrderList, StyledOrderPage } from "./StyledOrderPage.js"
 import { OrderList } from "./OrderList/OrderList"
+import { Header } from "../Header/Header"
 
 export const OrdersPage = () => {
 
    return (
       <StyledOrderPage>
-         <WidthWraper>
+            <Header/>
+         <WidthWrapper>
             <OrderList/>
-         </WidthWraper>
+         </WidthWrapper>
       </StyledOrderPage>
    )
 }
