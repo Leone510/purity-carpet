@@ -1,10 +1,10 @@
 import { StyledOrder } from "./StyledOrder"
 
-export const Order = () => {
+export const Order = ({children}) => {
 
    return (
       <StyledOrder>
-         Order
+         {children}
       </StyledOrder>
    )
 }

@@ -3,8 +3,19 @@ import { createSlice } from "@reduxjs/toolkit";
 const orderListSlice = createSlice({
    name: "orderList",
    initialState: {
-      lastOrderID: 0,
-      orders: [],
+      lastOrderID: 1,
+      orders: [
+         {
+            ID: 1,
+            carpets: [
+               [1.6, 2.3],
+               [2, 3],
+               [3, 4]      
+            ],
+            orderArea: 20.7,
+            orderPrice: 3255,
+         }
+      ],
    },
    redusers: {
       addOrder(state, {payload}) {
