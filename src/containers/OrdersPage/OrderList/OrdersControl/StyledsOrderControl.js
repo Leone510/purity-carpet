@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledOrderControl = styled.div`
+export const StyledOrdersControl = styled.div`
    margin-bottom: 10px;
    width: 100%;
    height: 50px;
